@@ -20,11 +20,11 @@ produces:
 paths:
   /merhaba:
     # binds a127 app logic to a route
-    x-swagger-router-controller: hello_world
+    x-swagger-router-controller: merhaba
     get:
-      description: Returns 'Hello' to the caller
+      description: Returns 'Merhaba'
       # used as the method name of the controller
-      operationId: hello
+      operationId: merhabaArkadas
       parameters:
         - name: name
           in: query
